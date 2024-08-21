@@ -1,0 +1,17 @@
+Implement an in Memory cache.
+
+Commands to support:
+GET, PUT, REMOVE, Cache should take TTL for each key, global cache size support.
+Should support multi threads,
+
+Eviction Policy for removing elements when cache is full: start with one, code should be extensible to support new eviction policies
+Least recently used
+Least Frequently used
+
+Good to Have
+
+Write-Through Cache, implementation of another eviction policy.
+
+Assumptions:
+The cache should be extendable to support different types
+The values could be string, list etc.
